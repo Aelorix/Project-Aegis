@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['aegis.py'],
+    ['Aegis.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='aegis',
+    name='Aegis',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
